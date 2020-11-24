@@ -1,0 +1,63 @@
+.btn {
+  text-decoration: none;
+  width: max-content;
+  padding: 0 3rem;
+  display: inline-block;
+  cursor: pointer !important;
+
+  &--started {
+    height: 5.5rem;
+    line-height: 5.5rem;
+    background-color: #0fc17a;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+
+    &:hover {
+      background-color: darken(#0fc17a, 5%);
+    }
+  }
+
+  &--download {
+    height: 4.5rem;
+    line-height: 4.5rem;
+    color: #777777;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    & > img {
+      width: 2rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &--banner {
+    width: 24rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+
+    &-green {
+      background: #0fc17a;
+      margin-bottom: 3rem;
+      justify-content: center;
+    }
+
+    &-black {
+      background: #000000;
+
+      & > img {
+        width: 2rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.section-heading {
+  &__primary {
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__secondary {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+  }
+}
